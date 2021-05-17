@@ -1,0 +1,8 @@
+{
+    "database": "",
+    "dbUsername": "",
+    "dbPassword": "",
+    "dbHost": "",
+    "dbDialect": "",
+    "jwtPrivatekey": ""
+}

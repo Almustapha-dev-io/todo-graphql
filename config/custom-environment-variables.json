@@ -1,0 +1,8 @@
+{
+    "database": "todo_db",
+    "dbUsername": "todo_user",
+    "dbPassword": "todo_password",
+    "dbHost": "todo_host",
+    "dbDialect": "todo_dialect",
+    "jwtPrivatekey": "todo_secret"
+}
