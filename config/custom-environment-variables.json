@@ -4,5 +4,11 @@
     "dbPassword": "todo_password",
     "dbHost": "todo_host",
     "dbDialect": "todo_dialect",
-    "jwtPrivatekey": "todo_secret"
+    "jwtPrivatekey": "todo_secret",
+    "googleClientId": "todo_googleClient",
+    "googleSecret": "todo_googleSecret",
+    "googleCallback": "todo_googleCallback",
+    "fbAppId": "todo_fbId",
+    "fbSecret": "todo_fbSecret",
+    "fbCallback": "todo_fbCallback"
 }

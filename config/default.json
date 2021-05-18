@@ -4,5 +4,11 @@
     "dbPassword": "",
     "dbHost": "",
     "dbDialect": "",
-    "jwtPrivatekey": ""
+    "jwtPrivatekey": "",
+    "googleClientId": "",
+    "googleSecret": "",
+    "googleCallback": "",
+    "fbAppId": "",
+    "fbSecret": "",
+    "fbCallback": ""
 }

@@ -58,9 +58,13 @@ User.beforeCreate(async (user, options) => {
     try {
         const username = user.get('username') as string;
         const password = user.get('password') as string;
+        const authType = user.get('auth_type') as string;
+
+        if (authType !== 'local') {
+            return;
+        }
 
         const existingUser = await User.findOne({ where: { username } });
-
         if (existingUser) {
             throw new Error(`User with username: ${username} already exists!`);
         }
